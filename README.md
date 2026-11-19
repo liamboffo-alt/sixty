@@ -48,7 +48,8 @@ Buy a domain (Cloudflare Registrar, Porkbun or Namecheap), then add it in your h
 Then set `SITE_URL` at the top of `app.js` (e.g. `'https://playsixty.com'`) so shared results link to it.
 
 ## Configuration (top of `app.js`)
-- `LAUNCH`: the date of Episode #1. Change it to your launch day before going public.
+- `LAUNCH`: the date of Episode #1 (currently Nov 19, 2026). Before that day, the site offers
+  Episode #1 as an unsaved sneak preview.
 - `DURATION_MS` / `COUNTDOWN_MS`: the 60-second clock and the 5-second thinking time.
 - `SITE_URL`: the link added to shared results.
 

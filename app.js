@@ -2,7 +2,7 @@
   'use strict';
 
   // ---------- Config ----------
-  const LAUNCH = new Date(2026, 10, 18);   // Day #1 (local time). Months are 0-based: 10 = November.
+  const LAUNCH = new Date(2026, 10, 19);   // Day #1 (local time). Months are 0-based: 10 = November.
   const DURATION_MS = 60 * 1000;
   const COUNTDOWN_MS = 5 * 1000;            // thinking time after the category is revealed
   const STORAGE_KEY = 'sixty:v1';
@@ -62,6 +62,8 @@
     const d = new Date(date.getFullYear(), date.getMonth(), date.getDate());
     return Math.round((d - LAUNCH) / 864e5) + 1;
   }
+  // Before launch day, Episode #1 can be played as a practice "sneak preview" that isn't saved.
+  const preLaunch = dayNumber(new Date()) < 1;
   const realDay = Math.max(1, dayNumber(new Date()));
   const catFor = (d) => CATS[(((d - 1) % CATS.length) + CATS.length) % CATS.length];
 
@@ -78,7 +80,7 @@
   const parFor = (c, n) => c.par || Math.max(5, Math.min(15, Math.round(n * 0.35)));
   function setupEpisode(d) {
     day = d > 0 ? d : realDay;
-    practice = day !== realDay;
+    practice = day !== realDay || preLaunch;
     cat = catFor(day);
     answers = cat.answers.split('\n').map((l) => l.trim()).filter(Boolean).map((line) => {
       const parts = line.split('|').map((p) => p.trim()).filter(Boolean);
@@ -287,7 +289,9 @@
   // Menu: the category stays hidden until the player presses Play.
   function renderReady() {
     $('#practice-banner').hidden = !practice;
-    $('#menu-eyebrow').textContent = practice ? 'Bonus round' : `Tonight’s episode · #${day}`;
+    $('#menu-eyebrow').textContent = preLaunch && day === realDay
+      ? 'Sneak preview · Episode #1 airs tomorrow'
+      : practice ? 'Bonus round' : `Tonight’s episode · #${day}`;
     const s = computeStats();
     $('#menu-fine').textContent = !practice && s.current > 0
       ? `🔥 ${s.current}-night streak. Keep it alive!`
