@@ -65,7 +65,25 @@
   // Before launch day, Episode #1 can be played as a practice "sneak preview" that isn't saved.
   const preLaunch = dayNumber(new Date()) < 1;
   const realDay = Math.max(1, dayNumber(new Date()));
-  const catFor = (d) => CATS[(((d - 1) % CATS.length) + CATS.length) % CATS.length];
+  // Daily rotation: holiday specials (categories.js, SIXTY_SPECIALS) take their calendar date;
+  // every other day cycles through the regular categories in order, forever.
+  const SPECIALS = window.SIXTY_SPECIALS || {};
+  const specialIds = new Set(Object.values(SPECIALS));
+  const REGULAR = CATS.filter((c) => !specialIds.has(c.id));
+  const dateOfDay = (d) => new Date(LAUNCH.getFullYear(), LAUNCH.getMonth(), LAUNCH.getDate() + d - 1);
+  const specialOn = (d) => {
+    const dt = dateOfDay(d);
+    const key = String(dt.getMonth() + 1).padStart(2, '0') + '-' + String(dt.getDate()).padStart(2, '0');
+    return SPECIALS[key] && CATS.find((c) => c.id === SPECIALS[key]);
+  };
+  const catFor = (d) => {
+    const special = specialOn(d);
+    if (special) return special;
+    // Holidays push the rotation back a day instead of skipping a regular category.
+    let idx = 0;
+    for (let i = 1; i < d; i++) if (!specialOn(i)) idx++;
+    return REGULAR[idx % REGULAR.length];
+  };
 
   // Another episode can be opened with #ep-12 (works inside the artifact) or ?day=12 (plain hosting).
   function requestedDay() {
@@ -673,5 +691,5 @@
   }
 
   // Exposed for quick debugging / data checks in the console.
-  window.__sixty = { norm, get cat() { return cat; }, get day() { return day; } };
+  window.__sixty = { norm, catFor, dateOfDay, get cat() { return cat; }, get day() { return day; } };
 })();

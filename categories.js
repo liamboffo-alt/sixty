@@ -1765,6 +1765,1250 @@ United Arab Emirates|UAE|Emirates
 Uzbekistan
 Vietnam
 Yemen`
+  },
+  {
+    id: 'smash-fighters', title: 'Super Smash Bros. Ultimate Fighters', emoji: '🎮', tag: 'Video Games',
+    blurb: 'Everyone is here. Name the fighters from the Ultimate roster, DLC included.',
+    answers: `
+Mario
+Donkey Kong|DK
+Link
+Samus
+Dark Samus
+Yoshi
+Kirby
+Fox
+Pikachu
+Luigi
+Ness
+Captain Falcon|Falcon
+Jigglypuff
+Peach|Princess Peach
+Daisy|Princess Daisy
+Bowser
+Ice Climbers|Popo and Nana
+Sheik
+Zelda|Princess Zelda
+Dr. Mario|Doctor Mario
+Pichu
+Falco
+Marth
+Lucina
+Young Link
+Ganondorf|Ganon
+Mewtwo
+Roy
+Chrom
+Mr. Game & Watch|Game and Watch|Mr Game and Watch
+Meta Knight
+Pit
+Dark Pit
+Zero Suit Samus|ZSS
+Wario
+Snake|Solid Snake
+Ike
+Pokemon Trainer|Squirtle|Ivysaur|Charizard
+Diddy Kong|Diddy
+Lucas
+Sonic
+King Dedede|Dedede
+Olimar|Captain Olimar
+Lucario
+R.O.B.|Rob
+Toon Link
+Wolf
+Villager
+Mega Man|Megaman
+Wii Fit Trainer
+Rosalina & Luma|Rosalina|Rosalina and Luma
+Little Mac
+Greninja
+Mii Brawler
+Mii Swordfighter
+Mii Gunner
+Palutena
+Pac-Man|Pacman
+Robin
+Shulk
+Bowser Jr.|Bowser Junior
+Duck Hunt|Duck Hunt Duo
+Ryu
+Ken
+Cloud
+Corrin
+Bayonetta
+Inkling
+Ridley
+Simon|Simon Belmont
+Richter|Richter Belmont
+King K. Rool|K Rool|King K Rool
+Isabelle
+Incineroar
+Piranha Plant
+Joker
+Hero
+Banjo & Kazooie|Banjo|Banjo and Kazooie
+Terry|Terry Bogard
+Byleth
+Min Min
+Steve|Minecraft Steve
+Sephiroth
+Pyra & Mythra|Pyra|Mythra|Pyra and Mythra
+Kazuya
+Sora`
+  },
+  {
+    id: 'us-national-parks', title: 'US National Parks', emoji: '🏞️', tag: 'Geography',
+    blurb: 'All 63 national parks, from Acadia to Zion.',
+    answers: `
+Acadia
+American Samoa
+Arches
+Badlands
+Big Bend
+Biscayne
+Black Canyon of the Gunnison|Black Canyon
+Bryce Canyon|Bryce
+Canyonlands
+Capitol Reef
+Carlsbad Caverns|Carlsbad
+Channel Islands
+Congaree
+Crater Lake
+Cuyahoga Valley|Cuyahoga
+Death Valley
+Denali
+Dry Tortugas
+Everglades
+Gates of the Arctic
+Gateway Arch
+Glacier
+Glacier Bay
+Grand Canyon
+Grand Teton|Tetons|Grand Tetons
+Great Basin
+Great Sand Dunes
+Great Smoky Mountains|Smoky Mountains|Smokies|Great Smokies
+Guadalupe Mountains
+Haleakala
+Hawaii Volcanoes
+Hot Springs
+Indiana Dunes
+Isle Royale
+Joshua Tree
+Katmai
+Kenai Fjords
+Kings Canyon
+Kobuk Valley
+Lake Clark
+Lassen Volcanic|Lassen
+Mammoth Cave
+Mesa Verde
+Mount Rainier|Rainier|Mt Rainier
+New River Gorge
+North Cascades
+Olympic
+Petrified Forest
+Pinnacles
+Redwood|Redwoods
+Rocky Mountain|Rocky Mountains|Rockies
+Saguaro
+Sequoia
+Shenandoah
+Theodore Roosevelt
+Virgin Islands
+Voyageurs
+White Sands
+Wind Cave
+Wrangell-St. Elias|Wrangell St Elias|Wrangell
+Yellowstone
+Yosemite
+Zion`
+  },
+  {
+    id: 'pasta-shapes', title: 'Pasta Shapes', emoji: '🍝', tag: 'Food',
+    blurb: 'From spaghetti to strozzapreti. Over 50 shapes are in play.',
+    answers: `
+Spaghetti
+Spaghettini
+Linguine
+Fettuccine|Fettucine
+Tagliatelle
+Tagliolini
+Pappardelle
+Lasagna|Lasagne
+Penne
+Rigatoni
+Ziti
+Macaroni|Elbow Macaroni|Elbows|Mac
+Fusilli
+Rotini
+Farfalle|Bow Tie|Bowtie|Bow Ties
+Orzo|Risoni
+Ravioli
+Tortellini
+Tortelloni
+Gnocchi
+Cannelloni
+Manicotti
+Conchiglie|Shells|Shell Pasta|Conchiglioni
+Orecchiette
+Bucatini
+Capellini|Angel Hair
+Vermicelli
+Cavatappi
+Cavatelli
+Gemelli
+Radiatori
+Rotelle|Wagon Wheels|Ruote
+Ditalini
+Acini di Pepe
+Stelline|Stars
+Campanelle
+Casarecce
+Strozzapreti
+Trofie
+Paccheri
+Mafaldine|Mafalda
+Agnolotti
+Cappelletti
+Fregola
+Pastina
+Anelli
+Lumache
+Fideo|Fideos
+Garganelli
+Bigoli
+Pici
+Malloreddus
+Tortiglioni
+Mezze Maniche
+Calamarata`
+  },
+  {
+    id: 'super-bowl-winners', title: 'Super Bowl Winning Teams', emoji: '🏈', tag: 'Sports',
+    blurb: 'Every franchise that has won at least one Super Bowl.',
+    answers: `
+Green Bay Packers|Packers|Green Bay
+New York Jets|Jets
+Kansas City Chiefs|Chiefs|Kansas City
+Indianapolis Colts|Colts|Baltimore Colts|Indianapolis
+Dallas Cowboys|Cowboys|Dallas
+Miami Dolphins|Dolphins|Miami
+Pittsburgh Steelers|Steelers|Pittsburgh
+Las Vegas Raiders|Raiders|Oakland Raiders|Los Angeles Raiders
+San Francisco 49ers|49ers|Niners|San Francisco
+Washington Commanders|Commanders|Washington|Washington Redskins
+Chicago Bears|Bears|Chicago
+New York Giants|Giants
+Denver Broncos|Broncos|Denver
+Los Angeles Rams|Rams|St Louis Rams
+Baltimore Ravens|Ravens|Baltimore
+Tampa Bay Buccaneers|Buccaneers|Bucs|Tampa Bay
+New England Patriots|Patriots|Pats|New England
+New Orleans Saints|Saints|New Orleans
+Seattle Seahawks|Seahawks|Seattle
+Philadelphia Eagles|Eagles|Philadelphia|Philly`
+  },
+  {
+    id: 'mcu-movies', title: 'Marvel Cinematic Universe Movies', emoji: '🦸', tag: 'Movies',
+    blurb: 'Every MCU film released so far, from Iron Man (2008) on. The subtitle alone counts.',
+    answers: `
+Iron Man
+The Incredible Hulk|Incredible Hulk
+Iron Man 2
+Thor
+Captain America: The First Avenger|The First Avenger|First Avenger|Captain America
+The Avengers|Avengers
+Iron Man 3
+Thor: The Dark World|The Dark World|Dark World
+Captain America: The Winter Soldier|The Winter Soldier|Winter Soldier
+Guardians of the Galaxy
+Avengers: Age of Ultron|Age of Ultron
+Ant-Man|Antman
+Captain America: Civil War|Civil War
+Doctor Strange|Dr Strange
+Guardians of the Galaxy Vol. 2|Guardians of the Galaxy 2|Guardians 2
+Spider-Man: Homecoming|Homecoming
+Thor: Ragnarok|Ragnarok
+Black Panther
+Avengers: Infinity War|Infinity War
+Ant-Man and the Wasp|Antman and the Wasp
+Captain Marvel
+Avengers: Endgame|Endgame
+Spider-Man: Far From Home|Far From Home
+Black Widow
+Shang-Chi and the Legend of the Ten Rings|Shang-Chi|Shang Chi
+Eternals|The Eternals
+Spider-Man: No Way Home|No Way Home
+Doctor Strange in the Multiverse of Madness|Multiverse of Madness|Doctor Strange 2
+Thor: Love and Thunder|Love and Thunder
+Black Panther: Wakanda Forever|Wakanda Forever|Black Panther 2
+Ant-Man and the Wasp: Quantumania|Quantumania
+Guardians of the Galaxy Vol. 3|Guardians of the Galaxy 3|Guardians 3
+The Marvels|Marvels
+Deadpool & Wolverine|Deadpool and Wolverine
+Captain America: Brave New World|Brave New World
+Thunderbolts*|Thunderbolts
+The Fantastic Four: First Steps|First Steps|Fantastic Four
+Spider-Man: Brand New Day|Brand New Day`
+  },
+  {
+    id: 'bones', title: 'Bones of the Human Body', emoji: '🦴', tag: 'Science',
+    blurb: 'Scientific or everyday names both count (femur or thigh bone).',
+    answers: `
+Skull|Cranium
+Mandible|Jaw|Jawbone|Lower Jaw
+Maxilla|Upper Jaw
+Clavicle|Collarbone|Collar Bone
+Scapula|Shoulder Blade
+Sternum|Breastbone|Breast Bone
+Rib|Ribs|Rib Cage
+Humerus
+Radius
+Ulna
+Carpals|Carpal|Wrist Bones
+Metacarpals|Metacarpal
+Phalanges|Phalanx|Finger Bones|Toe Bones
+Vertebrae|Vertebra|Spine|Backbone
+Pelvis|Hip Bone|Hip
+Sacrum
+Coccyx|Tailbone|Tail Bone
+Femur|Thigh Bone|Thighbone
+Patella|Kneecap|Knee Cap
+Tibia|Shin Bone|Shinbone
+Fibula
+Tarsals|Tarsal
+Metatarsals|Metatarsal
+Calcaneus|Heel Bone
+Talus|Ankle Bone
+Hyoid
+Ilium
+Ischium
+Pubis|Pubic Bone
+Atlas
+Axis
+Frontal Bone|Frontal
+Parietal Bone|Parietal
+Temporal Bone|Temporal
+Occipital Bone|Occipital
+Sphenoid
+Ethmoid
+Nasal Bone|Nasal
+Zygomatic|Cheekbone|Cheek Bone
+Lacrimal
+Vomer
+Malleus|Hammer
+Incus|Anvil
+Stapes|Stirrup
+Scaphoid
+Lunate
+Trapezium
+Cuboid
+Navicular`
+  },
+  {
+    id: 'michael-jackson-songs', title: 'Michael Jackson Songs', emoji: '🕺', tag: 'Music',
+    blurb: 'The King of Pop’s solo catalog. About 55 songs are in play.',
+    answers: `
+Thriller
+Billie Jean
+Beat It
+Bad
+Smooth Criminal
+Man in the Mirror
+Black or White
+Don't Stop 'Til You Get Enough
+Rock with You
+Off the Wall
+Wanna Be Startin' Somethin'
+Human Nature
+P.Y.T. (Pretty Young Thing)|PYT|Pretty Young Thing
+The Way You Make Me Feel
+Dirty Diana
+Remember the Time
+Heal the World
+Earth Song
+You Are Not Alone
+They Don't Care About Us
+Scream
+Jam
+Will You Be There
+In the Closet
+Leave Me Alone
+Liberian Girl
+Another Part of Me
+Speed Demon
+Ben
+She's Out of My Life
+Dangerous
+Who Is It
+Give In to Me
+Stranger in Moscow
+Blood on the Dance Floor
+You Rock My World
+Butterflies
+Cry
+Unbreakable
+Hold My Hand
+Love Never Felt So Good
+Workin' Day and Night
+The Girl Is Mine
+Say Say Say
+Got to Be There
+Rockin' Robin
+Ghosts
+Childhood
+Gone Too Soon
+Behind the Mask
+This Is It
+Xscape
+Shout`
+  },
+  {
+    id: 'countries-starting-s', title: 'Countries Starting with S', emoji: '🔤', tag: 'Geography',
+    blurb: 'Every sovereign country whose English name starts with S. All 26 of them.',
+    answers: `
+Saint Kitts and Nevis|St Kitts and Nevis|St Kitts|Saint Kitts
+Saint Lucia|St Lucia
+Saint Vincent and the Grenadines|St Vincent and the Grenadines|St Vincent|Saint Vincent
+Samoa
+San Marino
+Sao Tome and Principe|Sao Tome
+Saudi Arabia
+Senegal
+Serbia
+Seychelles
+Sierra Leone
+Singapore
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South Korea
+South Sudan
+Spain
+Sri Lanka
+Sudan
+Suriname
+Sweden
+Switzerland
+Syria`
+  },
+  {
+    id: 'the-office-characters', title: 'The Office Characters', emoji: '📎', tag: 'TV',
+    blurb: 'Dunder Mifflin Scranton’s finest (US version). First names count.',
+    answers: `
+Michael Scott|Michael
+Dwight Schrute|Dwight
+Jim Halpert|Jim
+Pam Beesly|Pam|Pam Halpert
+Ryan Howard|Ryan
+Andy Bernard|Andy
+Stanley Hudson|Stanley
+Kevin Malone|Kevin
+Meredith Palmer|Meredith
+Angela Martin|Angela
+Oscar Martinez|Oscar
+Phyllis Vance|Phyllis|Phyllis Lapin
+Roy Anderson|Roy
+Jan Levinson|Jan
+Toby Flenderson|Toby
+Kelly Kapoor|Kelly
+Creed Bratton|Creed
+Darryl Philbin|Darryl
+Erin Hannon|Erin
+Gabe Lewis|Gabe
+Holly Flax|Holly
+Nellie Bertram|Nellie
+Robert California
+Karen Filippelli|Karen
+Pete Miller|Pete|Plop
+Clark Green|Clark
+David Wallace|David
+Jo Bennett|Jo
+Todd Packer|Packer
+Charles Miner|Charles
+Mose Schrute|Mose
+Bob Vance|Bob
+Hank
+Deangelo Vickers|Deangelo
+Cathy Simms|Cathy
+Danny Cordray|Danny
+Nate
+Val Johnson|Val
+Robert Lipton|The Senator|Senator Lipton
+Josh Porter|Josh`
+  },
+  {
+    id: 'f1-champions', title: 'Formula 1 World Champions', emoji: '🏎️', tag: 'Sports',
+    blurb: 'Every drivers’ world champion since 1950. Last names count; type Hill or Rosberg again for the next one.',
+    answers: `
+Giuseppe Farina|Farina|Nino Farina
+Juan Manuel Fangio|Fangio
+Alberto Ascari|Ascari
+Mike Hawthorn|Hawthorn
+Jack Brabham|Brabham
+Phil Hill|Hill
+Graham Hill|Hill
+Jim Clark|Clark
+John Surtees|Surtees
+Denny Hulme|Hulme
+Jackie Stewart|Stewart
+Jochen Rindt|Rindt
+Emerson Fittipaldi|Fittipaldi
+Niki Lauda|Lauda
+James Hunt|Hunt
+Mario Andretti|Andretti
+Jody Scheckter|Scheckter
+Alan Jones|Jones
+Nelson Piquet|Piquet
+Keke Rosberg|Rosberg
+Alain Prost|Prost
+Ayrton Senna|Senna
+Nigel Mansell|Mansell
+Damon Hill|Hill
+Jacques Villeneuve|Villeneuve
+Mika Hakkinen|Hakkinen
+Michael Schumacher|Schumacher
+Fernando Alonso|Alonso
+Kimi Raikkonen|Raikkonen
+Lewis Hamilton|Hamilton
+Jenson Button|Button
+Sebastian Vettel|Vettel
+Nico Rosberg|Rosberg
+Max Verstappen|Verstappen
+Lando Norris|Norris`
+  },
+  {
+    id: 'cheeses', title: 'Cheeses', emoji: '🧀', tag: 'Food',
+    blurb: 'From cheddar to Comté. About 50 cheeses are in play.',
+    answers: `
+Cheddar
+Mozzarella
+Parmesan|Parmigiano Reggiano|Parmigiano
+Brie
+Camembert
+Gouda
+Swiss|Emmental|Emmentaler
+Feta
+Blue Cheese|Bleu Cheese|Blue
+Gorgonzola
+Roquefort
+Stilton
+Ricotta
+Mascarpone
+Provolone
+Monterey Jack|Jack
+Pepper Jack
+Colby
+Colby Jack
+American|American Cheese
+Havarti
+Muenster|Munster
+Gruyere
+Manchego
+Halloumi
+Paneer
+Cottage Cheese
+Cream Cheese
+Goat Cheese|Chevre
+Pecorino|Pecorino Romano|Romano
+Asiago
+Fontina
+Burrata
+Edam
+Jarlsberg
+Wensleydale
+Red Leicester
+Double Gloucester
+Comte
+Raclette
+Taleggio
+Limburger
+Queso Fresco
+Cotija
+Oaxaca
+Boursin
+Velveeta
+String Cheese
+Port Salut
+Reblochon`
+  },
+  {
+    id: 'dinosaurs', title: 'Dinosaurs', emoji: '🦖', tag: 'Science',
+    blurb: 'About 60 famous dinosaurs. Pterodactyls and sea monsters count too.',
+    answers: `
+Tyrannosaurus Rex|T Rex|Tyrannosaurus|Trex
+Triceratops
+Velociraptor|Raptor
+Stegosaurus
+Brachiosaurus
+Diplodocus
+Apatosaurus
+Brontosaurus
+Spinosaurus
+Allosaurus
+Ankylosaurus
+Parasaurolophus
+Iguanodon
+Pachycephalosaurus
+Carnotaurus
+Dilophosaurus
+Gallimimus
+Compsognathus
+Deinonychus
+Utahraptor
+Giganotosaurus
+Argentinosaurus
+Megalosaurus
+Baryonyx
+Therizinosaurus
+Oviraptor
+Protoceratops
+Styracosaurus
+Maiasaura
+Edmontosaurus
+Corythosaurus
+Microraptor
+Archaeopteryx
+Coelophysis
+Plateosaurus
+Camarasaurus
+Mamenchisaurus
+Kentrosaurus
+Ceratosaurus
+Albertosaurus
+Troodon
+Hadrosaurus
+Psittacosaurus
+Nodosaurus
+Amargasaurus
+Suchomimus
+Carcharodontosaurus
+Dreadnoughtus
+Patagotitan
+Majungasaurus
+Herrerasaurus
+Eoraptor
+Pteranodon|Pterodactyl|Pterodactylus
+Quetzalcoatlus
+Mosasaurus
+Plesiosaurus`
+  },
+  {
+    id: 'broadway-musicals', title: 'Broadway Musicals', emoji: '🎭', tag: 'Theater',
+    blurb: 'About 70 famous Broadway musicals, classic and new.',
+    answers: `
+Hamilton
+Wicked
+Les Miserables|Les Mis
+The Phantom of the Opera|Phantom
+Cats
+The Lion King|Lion King
+Chicago
+Rent
+Grease
+Hairspray
+Mamma Mia!|Mamma Mia
+The Book of Mormon|Book of Mormon
+Dear Evan Hansen
+Hadestown
+Into the Woods
+West Side Story
+The Sound of Music|Sound of Music
+Cabaret
+Oklahoma!|Oklahoma
+Annie
+A Chorus Line|Chorus Line
+Fiddler on the Roof
+My Fair Lady
+Jersey Boys
+Mean Girls
+Six
+Kinky Boots
+Matilda
+Aladdin
+Beauty and the Beast
+Frozen
+Sweeney Todd
+Company
+Evita
+Jesus Christ Superstar
+Joseph and the Amazing Technicolor Dreamcoat|Joseph
+Hello, Dolly!|Hello Dolly
+Guys and Dolls
+The Music Man|Music Man
+Spamalot
+The Producers|Producers
+Avenue Q
+Little Shop of Horrors
+The Rocky Horror Show|Rocky Horror
+Heathers
+Waitress
+Come From Away
+Moulin Rouge!|Moulin Rouge
+Miss Saigon
+Anything Goes
+Kiss Me, Kate|Kiss Me Kate
+South Pacific
+The King and I|King and I
+Oliver!|Oliver
+Pippin
+Godspell
+Hair
+Spring Awakening
+Next to Normal
+In the Heights
+Beetlejuice
+School of Rock
+Legally Blonde
+Newsies
+The Color Purple|Color Purple
+Once
+Bye Bye Birdie
+Carousel
+Gypsy
+Mary Poppins
+Shrek the Musical|Shrek`
+  },
+  {
+    id: 'olympic-host-cities', title: 'Summer Olympic Host Cities', emoji: '🔥', tag: 'Sports',
+    blurb: 'Every city that has hosted the Summer Games, from Athens 1896 to Paris 2024.',
+    answers: `
+Athens
+Paris
+St. Louis|Saint Louis|St Louis
+London
+Stockholm
+Antwerp
+Amsterdam
+Los Angeles|LA
+Berlin
+Helsinki
+Melbourne
+Rome
+Tokyo
+Mexico City
+Munich
+Montreal
+Moscow
+Seoul
+Barcelona
+Atlanta
+Sydney
+Beijing
+Rio de Janeiro|Rio`
+  },
+  {
+    id: 'disney-animated-classics', title: 'Disney Animated Classics', emoji: '🏰', tag: 'Movies',
+    blurb: 'Walt Disney Animation Studios features, from Snow White to Zootopia 2. (Pixar films don’t count.)',
+    answers: `
+Snow White and the Seven Dwarfs|Snow White
+Pinocchio
+Fantasia
+Dumbo
+Bambi
+Saludos Amigos
+The Three Caballeros|Three Caballeros
+Make Mine Music
+Fun and Fancy Free
+Melody Time
+The Adventures of Ichabod and Mr. Toad|Ichabod and Mr Toad
+Cinderella
+Alice in Wonderland
+Peter Pan
+Lady and the Tramp
+Sleeping Beauty
+One Hundred and One Dalmatians|101 Dalmatians
+The Sword in the Stone|Sword in the Stone
+The Jungle Book|Jungle Book
+The Aristocats|Aristocats
+Robin Hood
+The Many Adventures of Winnie the Pooh
+The Rescuers|Rescuers
+The Fox and the Hound|Fox and the Hound
+The Black Cauldron|Black Cauldron
+The Great Mouse Detective|Great Mouse Detective
+Oliver & Company|Oliver and Company
+The Little Mermaid|Little Mermaid
+The Rescuers Down Under|Rescuers Down Under
+Beauty and the Beast
+Aladdin
+The Lion King|Lion King
+Pocahontas
+The Hunchback of Notre Dame|Hunchback of Notre Dame|Hunchback
+Hercules
+Mulan
+Tarzan
+Fantasia 2000
+Dinosaur
+The Emperor's New Groove|Emperors New Groove
+Atlantis: The Lost Empire|Atlantis
+Lilo & Stitch|Lilo and Stitch
+Treasure Planet
+Brother Bear
+Home on the Range
+Chicken Little
+Meet the Robinsons
+Bolt
+The Princess and the Frog|Princess and the Frog
+Tangled
+Winnie the Pooh
+Wreck-It Ralph|Wreck It Ralph
+Frozen
+Big Hero 6
+Zootopia
+Moana
+Ralph Breaks the Internet
+Frozen II|Frozen 2
+Raya and the Last Dragon|Raya
+Encanto
+Strange World
+Wish
+Moana 2
+Zootopia 2`
+  },
+  {
+    id: 'vegetables', title: 'Vegetables', emoji: '🥕', tag: 'Food',
+    blurb: 'About 60 vegetables, from everyday to unusual. Plurals are fine.',
+    answers: `
+Carrot
+Potato
+Tomato
+Onion
+Garlic
+Broccoli
+Cauliflower
+Cabbage
+Lettuce|Romaine|Iceberg Lettuce
+Spinach
+Kale
+Celery
+Cucumber
+Zucchini|Courgette
+Eggplant|Aubergine
+Bell Pepper|Pepper|Capsicum|Sweet Pepper
+Chili Pepper|Chili|Chilli|Jalapeno
+Corn|Sweetcorn|Maize|Corn on the Cob
+Pea|Peas|Green Peas
+Green Bean|String Bean|Bean
+Asparagus
+Artichoke
+Brussels Sprout|Brussel Sprout|Sprouts
+Beet|Beetroot
+Radish
+Turnip
+Parsnip
+Rutabaga|Swede
+Sweet Potato|Yam
+Pumpkin
+Squash|Butternut Squash|Acorn Squash
+Leek
+Shallot
+Scallion|Green Onion|Spring Onion
+Mushroom
+Okra
+Bok Choy|Pak Choi
+Arugula|Rocket
+Watercress
+Swiss Chard|Chard
+Collard Greens|Collards
+Endive
+Radicchio
+Fennel
+Kohlrabi
+Jicama
+Daikon
+Ginger
+Horseradish
+Cassava|Yuca
+Taro
+Edamame
+Snap Pea|Snow Pea|Sugar Snap Pea
+Bean Sprouts
+Bamboo Shoots
+Water Chestnut
+Celeriac
+Cress
+Lima Bean
+Kidney Bean`
+  },
+  {
+    id: 'greek-gods', title: 'Greek Gods & Titans', emoji: '⚡', tag: 'Mythology',
+    blurb: 'The Olympians, the Titans and other Greek deities. Greek names only.',
+    answers: `
+Zeus
+Hera
+Poseidon
+Demeter
+Athena
+Apollo
+Artemis
+Ares
+Aphrodite
+Hephaestus
+Hermes
+Dionysus
+Hades
+Hestia
+Persephone
+Eros
+Nike
+Hecate
+Helios
+Selene
+Eos
+Pan
+Iris
+Nemesis
+Hypnos
+Thanatos
+Gaia
+Uranus|Ouranos
+Cronus|Kronos
+Rhea
+Tyche
+Asclepius
+Morpheus
+Hebe
+Eris
+Nyx
+Chaos
+Atlas
+Prometheus
+Hyperion
+Oceanus
+Themis
+Mnemosyne
+Leto
+Triton
+Aeolus
+Boreas
+Zephyrus`
+  },
+  {
+    id: 'board-games', title: 'Board & Party Games', emoji: '🎲', tag: 'Games',
+    blurb: 'Classic board games, modern favorites and party games. About 65 are in play.',
+    answers: `
+Monopoly
+Scrabble
+Chess
+Checkers|Draughts
+Clue|Cluedo
+Risk
+Sorry!|Sorry
+Trouble
+Candy Land|Candyland
+Chutes and Ladders|Snakes and Ladders
+Battleship
+Connect Four|Connect 4
+Operation
+Mouse Trap|Mousetrap
+Guess Who?|Guess Who
+The Game of Life|Game of Life|Life
+Yahtzee
+Boggle
+Pictionary
+Trivial Pursuit
+Scattergories
+Taboo
+Catan|Settlers of Catan
+Ticket to Ride
+Pandemic
+Carcassonne
+Codenames
+Stratego
+Othello|Reversi
+Backgammon
+Mancala
+Go
+Parcheesi|Ludo
+Hungry Hungry Hippos
+Jenga
+Twister
+Apples to Apples
+Cranium
+Mastermind
+Axis & Allies|Axis and Allies
+Azul
+Splendor
+Wingspan
+7 Wonders|Seven Wonders
+Dominion
+Gloomhaven
+Mahjong
+Dominoes
+Chinese Checkers
+Cards Against Humanity
+Uno
+Exploding Kittens
+Kerplunk
+Perfection
+Blokus
+Qwirkle
+Rummikub
+Bananagrams
+Dixit
+Sequence
+Pay Day|Payday
+Hedbanz
+Balderdash
+Telestrations
+Bingo`
+  },
+  {
+    id: 'cat-breeds', title: 'Cat Breeds', emoji: '🐈', tag: 'Animals',
+    blurb: 'About 45 recognized cat breeds. Tabby and calico are patterns, not breeds.',
+    answers: `
+Persian
+Siamese
+Maine Coon
+Ragdoll
+Bengal
+Sphynx|Sphinx|Hairless
+British Shorthair
+American Shorthair
+Scottish Fold
+Abyssinian
+Russian Blue
+Birman
+Burmese
+Exotic Shorthair
+Himalayan
+Norwegian Forest Cat|Norwegian Forest
+Siberian
+Devon Rex
+Cornish Rex
+Savannah
+Oriental Shorthair|Oriental
+Tonkinese
+Bombay
+Manx
+Turkish Angora|Angora
+Turkish Van
+Egyptian Mau
+Ocicat
+Balinese
+Chartreux
+Somali
+Ragamuffin
+Selkirk Rex
+LaPerm
+Munchkin
+American Curl
+Japanese Bobtail
+Havana Brown
+Korat
+Singapura
+Toyger
+Snowshoe
+Nebelung
+Pixie-bob|Pixiebob
+Lykoi
+Peterbald
+Burmilla`
+  },
+  {
+    id: 'candy', title: 'Candy & Chocolate Bars', emoji: '🍬', tag: 'Food',
+    blurb: 'Chocolate bars, gummies and sweets. About 70 are in play.',
+    answers: `
+Snickers
+Twix
+Kit Kat|Kitkat
+M&M's|MMs|M and Ms
+Reese's|Reeses Peanut Butter Cups|Reeses Cups|Reeses Pieces
+Hershey's|Hershey Bar|Hersheys Bar
+Hershey's Kisses|Kisses
+Milky Way
+3 Musketeers|Three Musketeers
+Butterfinger
+Baby Ruth
+Almond Joy
+Mounds
+Skittles
+Starburst
+Sour Patch Kids
+Swedish Fish
+Twizzlers
+Red Vines
+Nerds
+Jolly Ranchers|Jolly Rancher
+Laffy Taffy
+Airheads
+Tootsie Roll
+Tootsie Pop
+Milk Duds
+Whoppers
+Junior Mints
+Hot Tamales
+Mike and Ike
+Jelly Belly|Jelly Beans
+Gummy Bears|Gummi Bears|Haribo
+Smarties
+SweeTarts|Sweet Tarts
+Pez
+Blow Pop
+Dum Dums
+Ring Pop
+Push Pop
+Warheads
+Lemonheads
+Atomic Fireball|Fireballs
+York Peppermint Pattie|York|Peppermint Patty
+Payday
+Heath
+Crunch|Nestle Crunch
+100 Grand|Hundred Grand
+Mr. Goodbar|Mr Goodbar
+Rolo
+Toblerone
+Ferrero Rocher
+Cadbury Creme Egg|Creme Egg
+Peeps
+Candy Corn
+Cotton Candy|Candy Floss
+Life Savers|Lifesavers
+Werther's Original|Werthers
+Andes Mints|Andes
+Charleston Chew
+Take 5
+Whatchamacallit
+Kinder Bueno|Kinder|Kinder Bar
+Mars Bar|Mars
+Galaxy
+Aero
+Crunchie
+Maltesers
+Bounty
+Gushers|Fruit Gushers
+Fruit Roll-Ups|Fruit Roll Up`
+  },
+  {
+    id: 'apple-products', title: 'Apple Products', emoji: '🍏', tag: 'Tech',
+    blurb: 'Apple hardware, past and present. Product lines count (iPhone), not individual model numbers.',
+    answers: `
+iPhone
+iPad
+iPod
+Mac|Macintosh
+MacBook
+MacBook Air
+MacBook Pro
+iMac
+Mac Mini
+Mac Pro
+Mac Studio
+Apple Watch
+AirPods
+AirPods Pro
+AirPods Max
+Apple TV
+HomePod
+HomePod Mini
+AirTag
+Apple Pencil
+Magic Mouse
+Magic Keyboard
+Magic Trackpad
+Vision Pro|Apple Vision Pro
+iPod Touch
+iPod Nano
+iPod Shuffle
+iPod Classic
+iPod Mini
+iPad Pro
+iPad Air
+iPad Mini
+iPhone SE
+Studio Display
+Pro Display XDR
+AirPort|AirPort Extreme|Time Capsule
+Newton
+Apple II|Apple 2
+Apple I|Apple 1
+Lisa|Apple Lisa
+eMac
+Power Mac
+iBook
+PowerBook`
+  },
+  {
+    id: 'santas-reindeer', title: 'Santa’s Reindeer', emoji: '🦌', tag: 'Holiday',
+    blurb: 'Christmas Eve special! Can you name all nine before the sleigh takes off?',
+    answers: `
+Dasher
+Dancer
+Prancer
+Vixen
+Comet
+Cupid
+Donner|Donder
+Blitzen
+Rudolph`
+  },
+  {
+    id: 'christmas-songs', title: 'Christmas Songs', emoji: '🎄', tag: 'Holiday',
+    blurb: 'Christmas Day special! Carols, classics and pop hits. About 55 songs are in play.',
+    answers: `
+Jingle Bells
+Silent Night
+White Christmas
+Rudolph the Red-Nosed Reindeer|Rudolph
+Frosty the Snowman|Frosty
+Deck the Halls
+Joy to the World
+O Holy Night
+Hark! The Herald Angels Sing|Hark the Herald
+O Come, All Ye Faithful|O Come All Ye Faithful|Adeste Fideles
+The First Noel|First Noel
+We Wish You a Merry Christmas
+Away in a Manger
+Silver Bells
+Let It Snow! Let It Snow! Let It Snow!|Let It Snow
+Winter Wonderland
+Sleigh Ride
+Jingle Bell Rock
+Rockin' Around the Christmas Tree|Rocking Around the Christmas Tree
+All I Want for Christmas Is You|All I Want for Christmas
+Last Christmas
+Feliz Navidad
+Santa Claus Is Comin' to Town|Santa Claus Is Coming to Town
+Here Comes Santa Claus
+Have Yourself a Merry Little Christmas
+It's the Most Wonderful Time of the Year|Most Wonderful Time of the Year
+It's Beginning to Look a Lot Like Christmas|Beginning to Look a Lot Like Christmas
+The Christmas Song|Chestnuts Roasting on an Open Fire
+Blue Christmas
+The Little Drummer Boy|Little Drummer Boy
+Do You Hear What I Hear?|Do You Hear What I Hear
+O Christmas Tree|O Tannenbaum
+The Twelve Days of Christmas|Twelve Days of Christmas|12 Days of Christmas
+God Rest Ye Merry Gentlemen
+Good King Wenceslas
+O Little Town of Bethlehem
+It Came Upon the Midnight Clear
+Carol of the Bells
+We Three Kings
+Angels We Have Heard on High
+Go Tell It on the Mountain
+Up on the Housetop
+A Holly Jolly Christmas|Holly Jolly Christmas
+Baby, It's Cold Outside|Baby Its Cold Outside
+Santa Baby
+I Saw Mommy Kissing Santa Claus
+Grandma Got Run Over by a Reindeer
+Mary, Did You Know?|Mary Did You Know
+Happy Xmas (War Is Over)|Happy Xmas|War Is Over
+Do They Know It's Christmas?|Do They Know Its Christmas
+Underneath the Tree
+Christmas (Baby Please Come Home)|Baby Please Come Home
+Wonderful Christmastime
+Mistletoe
+Run Rudolph Run
+You're a Mean One, Mr. Grinch|Mr Grinch|Youre a Mean One
+I'll Be Home for Christmas|Ill Be Home for Christmas`
   }
 ];
 
@@ -1783,6 +3027,21 @@ Yemen`
     'fast-food-chains': 15, 'car-brands': 18, 'americas-countries': 14, 'olympic-sports': 14,
     'disney-princesses': 8, 'shakespeare-plays': 7, 'fruits': 18, 'one-name-musicians': 10,
     'world-cup-winners': 5, 'asia-countries': 13,
+    'smash-fighters': 16, 'us-national-parks': 10, 'pasta-shapes': 9, 'super-bowl-winners': 11,
+    'mcu-movies': 12, 'bones': 8, 'michael-jackson-songs': 10, 'countries-starting-s': 10,
+    'the-office-characters': 12, 'f1-champions': 7, 'cheeses': 10, 'dinosaurs': 8,
+    'broadway-musicals': 10, 'olympic-host-cities': 10, 'disney-animated-classics': 14,
+    'vegetables': 18, 'greek-gods': 12, 'board-games': 14, 'cat-breeds': 8, 'candy': 15,
+    'apple-products': 10, 'santas-reindeer': 7, 'christmas-songs': 14,
   };
   window.SIXTY_CATEGORIES.forEach((c) => { if (!c.par && PAR[c.id]) c.par = PAR[c.id]; });
 })();
+
+/*
+ * Holiday specials: pinned to a calendar date ('MM-DD') every year, and kept out of the
+ * normal daily rotation. Add more here (e.g. '10-31': 'halloween-costumes').
+ */
+window.SIXTY_SPECIALS = {
+  '12-24': 'santas-reindeer',
+  '12-25': 'christmas-songs',
+};

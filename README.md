@@ -57,6 +57,14 @@ Then set `SITE_URL` at the top of `app.js` (e.g. `'https://playsixty.com'`) so s
 - `DURATION_MS` / `COUNTDOWN_MS`: the 60-second clock and the 5-second thinking time.
 - `SITE_URL`: the link added to shared results.
 
+## Daily rotation (fully automatic)
+The category for each day is worked out from the date, so the site changes at midnight (the
+player's local time) with no manual steps. Regular categories play in the order they appear in
+`categories.js` and loop forever (49 regular + 2 holiday specials = 51).
+Holiday specials in `SIXTY_SPECIALS` (bottom of `categories.js`) take their date every year:
+Santa's Reindeer on Dec 24, Christmas Songs on Dec 25. They push the rotation back a day
+rather than skipping a regular category.
+
 ## Adding a category
 Add an object to `categories.js`, and give it a par in the `PAR` list at the bottom.
 Each answer is one line, `Display Name|alias|alias`. Matching already ignores case, accents,
