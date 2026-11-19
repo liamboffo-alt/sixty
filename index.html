@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Sixty</title>
+  <meta name="description" content="One category. Sixty seconds. Name as many as you can. A new episode every day.">
+  <meta name="theme-color" content="#1a0d09">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sixty: the daily 60-second game show">
+  <meta property="og:description" content="One category. Sixty seconds. Name as many as you can. A new episode every day.">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%23e0262f'/><text x='50' y='66' font-size='44' font-family='Arial Black' text-anchor='middle' fill='%23ffd166'>60</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <button class="icon-btn" id="btn-help" aria-label="How to play">?</button>
+    <div class="marquee marquee-sm">
+      <div class="marquee-inner"><span class="logo">SIXTY</span></div>
+    </div>
+    <div class="top-right">
+      <button class="icon-btn" id="btn-sound" aria-label="Sound" aria-pressed="true">
+        <svg class="ico-on" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M3 9v6h4l5 5V4L7 9H3Zm13.5 3A4.5 4.5 0 0 0 14 8v8a4.5 4.5 0 0 0 2.5-4ZM14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6Z"/></svg>
+        <svg class="ico-off" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M3 9v6h4l5 5V4L7 9H3Zm18.6 6.2-1.4 1.4L17 13.4l-3.2 3.2-1.4-1.4 3.2-3.2-3.2-3.2 1.4-1.4L17 10.6l3.2-3.2 1.4 1.4-3.2 3.2 3.2 3.2Z"/></svg>
+      </button>
+      <button class="icon-btn" id="btn-stats" aria-label="Statistics">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M4 20h3V10H4v10Zm6.5 0h3V4h-3v16ZM17 20h3v-7h-3v7Z"/></svg>
+      </button>
+    </div>
+  </header>
+  <p class="episode">Episode <span id="daynum"></span> · Live from Studio 60</p>
+
+  <main>
+    <!-- Menu (category stays hidden) -->
+    <section class="screen" id="screen-ready" hidden>
+      <div class="rays" aria-hidden="true"></div>
+      <div class="ready-stack">
+        <div class="practice-banner" id="practice-banner" hidden>Bonus round: practice only, not saved. <a href="#" class="back-today">Back to tonight’s episode</a></div>
+        <p class="eyebrow" id="menu-eyebrow">Tonight’s episode</p>
+        <div class="marquee marquee-lg">
+          <div class="marquee-inner mystery">
+            <div class="mystery-q" aria-hidden="true">?</div>
+            <h1 class="cat-title">Mystery category</h1>
+            <span class="tag">Revealed when you play</span>
+          </div>
+        </div>
+        <p class="cat-blurb">Press play to see the category. You get 5 seconds to think, then 60 seconds on the clock.</p>
+        <div class="buzzer-base">
+          <button class="buzzer" id="btn-start">Play</button>
+        </div>
+        <p class="fine" id="menu-fine">60 bulbs on the clock. One goes dark every second.</p>
+      </div>
+    </section>
+
+    <!-- Reveal + 5-second countdown -->
+    <section class="screen" id="screen-reveal" hidden>
+      <div class="rays" aria-hidden="true"></div>
+      <div class="ready-stack">
+        <p class="eyebrow" id="reveal-eyebrow">Tonight’s category</p>
+        <div class="marquee marquee-lg">
+          <div class="marquee-inner">
+            <div class="cat-emoji" id="ready-emoji"></div>
+            <h1 class="cat-title" id="ready-title"></h1>
+            <span class="tag" id="ready-tag"></span>
+          </div>
+        </div>
+        <p class="cat-blurb" id="ready-blurb"></p>
+        <p class="cat-count" id="ready-count"></p>
+        <div class="count-face" aria-live="assertive"><span id="count-num">5</span></div>
+        <p class="fine">Get your answers ready. The clock starts at zero.</p>
+      </div>
+    </section>
+
+    <!-- Playing -->
+    <section class="screen" id="screen-play" hidden>
+      <div class="play-head">
+        <div class="ring" id="ring">
+          <svg viewBox="0 0 120 120" aria-hidden="true">
+            <defs>
+              <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                <feGaussianBlur stdDeviation="1.6" result="b"/>
+                <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+              </filter>
+            </defs>
+            <circle class="ring-face" cx="60" cy="60" r="46"/>
+            <g id="bulbs" filter="url(#glow)"></g>
+          </svg>
+          <span class="ring-num" id="time-left">60</span>
+        </div>
+        <div class="play-meta">
+          <div class="play-title" id="play-title"></div>
+          <div class="score scoreboard">
+            <span class="digits" id="score-now">0</span>
+            <span class="score-of">of <span id="score-total">0</span></span>
+          </div>
+          <span class="par-chip" id="play-par">Par</span>
+        </div>
+      </div>
+      <form id="guess-form" autocomplete="off">
+        <input id="guess" type="text" inputmode="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Type an answer…" aria-label="Your answer" enterkeyhint="go">
+        <div class="feedback" id="feedback" aria-live="polite"></div>
+      </form>
+      <ul class="board" id="found-list" aria-label="Found answers"></ul>
+    </section>
+
+    <!-- Done -->
+    <section class="screen" id="screen-done" hidden>
+      <div class="practice-banner" id="practice-banner-done" hidden>Bonus round result, not saved. <a href="#" class="back-today">Back to tonight’s episode</a></div>
+      <p class="eyebrow">That’s time!</p>
+      <h2 class="done-title" id="done-title"></h2>
+      <span class="tag" id="done-tag"></span>
+      <div class="scoreboard big">
+        <span class="digits" id="done-score">0</span>
+        <span class="score-of">of <span id="done-total">0</span></span>
+      </div>
+      <div class="verdict" id="done-verdict"></div>
+      <div class="par-line" id="done-par"></div>
+      <div class="bar" id="done-bar" aria-hidden="true"></div>
+      <div class="done-actions">
+        <button class="btn-red" id="btn-share">Share your score</button>
+        <button class="btn-ghost" id="btn-bonus">Play a bonus round</button>
+      </div>
+      <div class="next" id="next-wrap">Next episode in <strong id="countdown">--:--:--</strong></div>
+      <h3 class="section-h">The big board <span class="legend"><i class="dot got"></i>Found <i class="dot miss"></i>Missed</span></h3>
+      <ul class="board reveal" id="reveal-list"></ul>
+    </section>
+  </main>
+
+  <!-- Help modal -->
+  <dialog class="modal" id="modal-help">
+    <button class="close" data-close aria-label="Close">×</button>
+    <h2>How to play</h2>
+    <ol class="rules">
+      <li><strong>A new category every night.</strong> Everyone gets the same one.</li>
+      <li><strong>Hit play to reveal the category.</strong> You get 5 seconds to think, then 60 seconds on the clock, shown as 60 bulbs.</li>
+      <li>Correct answers <strong>light up on the board</strong> as you type. Press <kbd>Enter</kbd> if one doesn’t.</li>
+      <li>Small typos are forgiven. Wrong guesses cost nothing.</li>
+      <li><strong>Beat the par.</strong> Every category has a par, the score a solid player reaches in 60 seconds, so easy and hard nights are judged fairly.</li>
+      <li>Come back tomorrow for the next episode and keep your streak alive.</li>
+    </ol>
+    <button class="btn-red" data-close>Roll the show</button>
+  </dialog>
+
+  <!-- Stats modal -->
+  <dialog class="modal" id="modal-stats">
+    <button class="close" data-close aria-label="Close">×</button>
+    <h2>Your stats</h2>
+    <div class="stat-grid" id="stat-grid"></div>
+    <h3 class="section-h">Recent episodes</h3>
+    <ul class="history" id="history"></ul>
+  </dialog>
+
+  <div class="toast" id="toast" role="status"></div>
+
+  <script src="categories.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

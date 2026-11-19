@@ -1,0 +1,7 @@
+# Built single-file page for the Claude artifact (made by build-artifact.ps1)
+dist/
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
