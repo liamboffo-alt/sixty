@@ -22,7 +22,11 @@ powershell -ExecutionPolicy Bypass -File tools\serve.ps1
 ```
 Then open http://localhost:5173. Add `#ep-12` to the address to play episode 12 as practice.
 
-## Put it on the web
+## Live site
+**https://sixty.liam-boffo.workers.dev**, hosted on Cloudflare (Workers & Pages → `sixty`),
+connected to GitHub `liamboffo-alt/sixty`. Every push to `main` redeploys automatically in about a minute.
+
+## Put it on the web (how this was set up)
 
 ### 1. Push to GitHub
 1. Create a free account at https://github.com and a new **empty** repository called `sixty`.
